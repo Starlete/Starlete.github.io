@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Star&#39;blog</title>
+  <title>StarDust&#39;Blog</title>
   
-  <subtitle>Star的博客</subtitle>
+  <subtitle>一片自留地</subtitle>
   <link href="https://starlete.github.io/atom.xml" rel="self"/>
   
   <link href="https://starlete.github.io/"/>
