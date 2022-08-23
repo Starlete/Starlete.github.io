@@ -8,7 +8,7 @@
       <link href="/2022/08/23/%E4%BD%BF%E7%94%A8Vercel%E5%AE%9E%E7%8E%B0Github-Pages%E7%99%BE%E5%BA%A6%E6%94%B6%E5%BD%95/"/>
       <url>/2022/08/23/%E4%BD%BF%E7%94%A8Vercel%E5%AE%9E%E7%8E%B0Github-Pages%E7%99%BE%E5%BA%A6%E6%94%B6%E5%BD%95/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>使用Hexo+Github Pages实现个人博客后，发现生成sitemap页并提交到百度站长工具后出现无法检索的情况，百度站长工具抓取诊断提示 socket 读写错误 ，经了解原因为Github禁止了百度的爬虫，转而考虑使用Vercel作为Github的镜像实现，具体步骤如下</p><h2 id="生成sitemap"><a href="#生成sitemap" class="headerlink" title="生成sitemap"></a>生成sitemap</h2><p>为了让博客的内容能被百度和 Google 检索，首先需要生成对应的 sitemap：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npminstall hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure><p>安装对应插件后，在下一次进行渲染时将会自动生成站点对应的sitemap</p>]]></content>
       
       
       
