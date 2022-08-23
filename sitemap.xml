@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://starlete.github.io/2022/08/23/%E4%BD%BF%E7%94%A8Vercel%E5%AE%9E%E7%8E%B0Github-Pages%E7%99%BE%E5%BA%A6%E6%94%B6%E5%BD%95/</loc>
+    
+    <lastmod>2022-08-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://starlete.github.io/2022/08/18/Oracle%E4%B8%AD%E7%9A%84%E9%97%AA%E5%9B%9E%E6%9F%A5%E8%AF%A2-Flashback-Query/</loc>
     
     <lastmod>2022-08-18</lastmod>
@@ -76,7 +85,7 @@
 
   <url>
     <loc>https://starlete.github.io/</loc>
-    <lastmod>2022-08-18</lastmod>
+    <lastmod>2022-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,35 +93,35 @@
   
   <url>
     <loc>https://starlete.github.io/tags/Oracle/</loc>
-    <lastmod>2022-08-18</lastmod>
+    <lastmod>2022-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://starlete.github.io/tags/SQL/</loc>
-    <lastmod>2022-08-18</lastmod>
+    <lastmod>2022-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://starlete.github.io/tags/%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5/</loc>
-    <lastmod>2022-08-18</lastmod>
+    <lastmod>2022-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://starlete.github.io/tags/Hexo/</loc>
-    <lastmod>2022-08-18</lastmod>
+    <lastmod>2022-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://starlete.github.io/tags/%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D/</loc>
-    <lastmod>2022-08-18</lastmod>
+    <lastmod>2022-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -121,14 +130,14 @@
   
   <url>
     <loc>https://starlete.github.io/categories/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2022-08-18</lastmod>
+    <lastmod>2022-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://starlete.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-08-18</lastmod>
+    <lastmod>2022-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
