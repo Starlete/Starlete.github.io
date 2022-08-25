@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>引入Waline评论系统</title>
+      <link href="/2022/08/25/%E5%BC%95%E5%85%A5Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2022/08/25/%E5%BC%95%E5%85%A5Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<p>今天在博客中引入了Waline评论系统，使用方法见<a href="https://waline.js.org/guide/get-started.html">官方文档</a></p><p>底层为LeanCloud托管+Vercel，喜闻乐见</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Waline </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用Vercel实现Github Pages百度收录</title>
       <link href="/2022/08/23/%E4%BD%BF%E7%94%A8Vercel%E5%AE%9E%E7%8E%B0Github-Pages%E7%99%BE%E5%BA%A6%E6%94%B6%E5%BD%95/"/>
       <url>/2022/08/23/%E4%BD%BF%E7%94%A8Vercel%E5%AE%9E%E7%8E%B0Github-Pages%E7%99%BE%E5%BA%A6%E6%94%B6%E5%BD%95/</url>

@@ -6,7 +6,7 @@
   <link href="https://blog.starlete.site/atom.xml" rel="self"/>
   
   <link href="https://blog.starlete.site/"/>
-  <updated>2022-08-25T06:08:59.419Z</updated>
+  <updated>2022-08-25T06:56:03.920Z</updated>
   <id>https://blog.starlete.site/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>引入Waline评论系统</title>
+    <link href="https://blog.starlete.site/2022/08/25/%E5%BC%95%E5%85%A5Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://blog.starlete.site/2022/08/25/%E5%BC%95%E5%85%A5Waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</id>
+    <published>2022-08-25T06:53:06.000Z</published>
+    <updated>2022-08-25T06:56:03.920Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天在博客中引入了Waline评论系统，使用方法见<a href="https://waline.js.org/guide/get-started.html">官方文档</a></p><p>底层为LeanCloud托管+Vercel，喜闻乐见</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天在博客中引入了Waline评论系统，使用方法见&lt;a href=&quot;https://waline.js.org/guide/get-started.html&quot;&gt;官方文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;底层为LeanCloud托管+Vercel，喜闻乐见&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="https://blog.starlete.site/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.starlete.site/tags/Hexo/"/>
+    
+    <category term="Waline" scheme="https://blog.starlete.site/tags/Waline/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Vercel实现Github Pages百度收录</title>
