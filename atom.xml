@@ -6,7 +6,7 @@
   <link href="https://blog.starlete.site/atom.xml" rel="self"/>
   
   <link href="https://blog.starlete.site/"/>
-  <updated>2022-08-24T10:01:42.459Z</updated>
+  <updated>2022-08-25T03:43:16.701Z</updated>
   <id>https://blog.starlete.site/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.starlete.site/2022/08/23/%E4%BD%BF%E7%94%A8Vercel%E5%AE%9E%E7%8E%B0Github-Pages%E7%99%BE%E5%BA%A6%E6%94%B6%E5%BD%95/"/>
     <id>https://blog.starlete.site/2022/08/23/%E4%BD%BF%E7%94%A8Vercel%E5%AE%9E%E7%8E%B0Github-Pages%E7%99%BE%E5%BA%A6%E6%94%B6%E5%BD%95/</id>
     <published>2022-08-23T04:04:56.000Z</published>
-    <updated>2022-08-24T10:01:42.459Z</updated>
+    <updated>2022-08-25T03:43:16.701Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>使用Hexo+Github Pages实现个人博客后，发现生成sitemap页并提交到百度站长工具后出现无法检索的情况，百度站长工具抓取诊断提示 socket 读写错误 ，如下图</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220823185041.png"></p><p>经了解原因为Github禁止了百度的爬虫，转而考虑使用Vercel作为Github的镜像实现，具体步骤如下</p><h2 id="生成sitemap"><a href="#生成sitemap" class="headerlink" title="生成sitemap"></a>生成sitemap</h2><p>为了让博客的内容能被百度和 Google 检索，首先需要生成对应的 sitemap：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure><p>安装对应插件后，在下一次进行渲染时将会自动生成站点对应的sitemap</p><h3 id="使用Vercel生成Github-Pages的镜像"><a href="#使用Vercel生成Github-Pages的镜像" class="headerlink" title="使用Vercel生成Github Pages的镜像"></a>使用Vercel生成Github Pages的镜像</h3><p><strong>注册 Vercel</strong><br>打开Vercel 官网 <a href="https://vercel.com/">https://vercel.com/</a></p><p>注册新用户需要使用 Github、Gitlab 或者 Bitbucket 的账户进行授权，建议使用Github授权登录即可，方便后续操作</p><p><strong>创建项目</strong></p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824143833.png"></p><p>点击Add New-Project </p><p>点击New页面下的Import Git Repository-Add Github Account，授权Github账号，即可读取Github中的项目</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824144037.png"></p><p>授权后将会出现Github项目列表，找到对应的项目，点击import</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824144257.png"></p><p>进入项目配置页，进行进行相应配置后点击Deploy即可</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824174518.png"></p><p>返回主页即可查看到我们刚才创建的项目，后续Vercel会自动同步Github的变更</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824174724.png"></p><p>STATUS为Ready时代表搭建成功，后续进行域名解析时使用对应的Domains即可</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824175734.png"></p><p><strong>注意：在自有域名中配置域名解析后，需要在Vercel项目中进行设置，路径为：项目&gt;Settings &gt; Domains，如图所示</strong></p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824180032.png"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>使用Hexo+Github Pages实现个人博客后，发现生成sitemap页并提交到百度站长工具后出现无法检索的情况，百度站长工具抓取诊断提示 socket 读写错误 ，如下图</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220823185041.png"></p><p>经了解原因为Github禁止了百度的爬虫，转而考虑使用Vercel作为Github的镜像实现，具体步骤如下</p><h2 id="生成sitemap"><a href="#生成sitemap" class="headerlink" title="生成sitemap"></a>生成sitemap</h2><p>为了让博客的内容能被百度和 Google 检索，首先需要生成对应的 sitemap：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure><p>安装对应插件后，在下一次进行渲染时将会自动生成站点对应的sitemap</p><h3 id="使用Vercel生成Github-Pages的镜像"><a href="#使用Vercel生成Github-Pages的镜像" class="headerlink" title="使用Vercel生成Github Pages的镜像"></a>使用Vercel生成Github Pages的镜像</h3><p><strong>注册 Vercel</strong><br>打开Vercel 官网 <a href="https://vercel.com/">https://vercel.com/</a></p><p>注册新用户需要使用 Github、Gitlab 或者 Bitbucket 的账户进行授权，建议使用Github授权登录即可，方便后续操作</p><p><strong>创建项目</strong></p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824143833.png"></p><p>点击Add New-Project </p><p>点击New页面下的Import Git Repository-Add Github Account，授权Github账号，即可读取Github中的项目</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824144037.png"></p><p>授权后将会出现Github项目列表，找到对应的项目，点击import</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824144257.png"></p><p>进入项目配置页，进行进行相应配置后点击Deploy即可</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824174518.png"></p><p>返回主页即可查看到我们刚才创建的项目，后续Vercel会自动同步Github的变更</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824174724.png"></p><p>STATUS为Ready时代表搭建成功，后续进行域名解析时使用对应的Domains即可</p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824175734.png"></p><p><strong>注意：在自有域名中配置域名解析后，需要在Vercel项目中进行设置，路径为：项目&gt;Settings &gt; Domains，如图所示</strong></p><p><img src="https://starleteimages.oss-cn-hangzhou.aliyuncs.com/img/20220824180032.png"></p><p>至此，镜像站搭建完成，后续前往<a href="https://ziyuan.baidu.com/">百度站长工具</a>中添加网站并提交sitemap即可。</p>]]></content>
     
     
       
@@ -33,6 +33,14 @@
     
     
     
+    <category term="技术" scheme="https://blog.starlete.site/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="SEO" scheme="https://blog.starlete.site/tags/SEO/"/>
+    
+    <category term="Github Pages" scheme="https://blog.starlete.site/tags/Github-Pages/"/>
+    
+    <category term="Vercel" scheme="https://blog.starlete.site/tags/Vercel/"/>
     
   </entry>
   

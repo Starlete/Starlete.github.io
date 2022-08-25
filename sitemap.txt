@@ -13,5 +13,8 @@ https://blog.starlete.site/tags/SQL/
 https://blog.starlete.site/tags/%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5/
 https://blog.starlete.site/tags/Hexo/
 https://blog.starlete.site/tags/%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D/
+https://blog.starlete.site/tags/SEO/
+https://blog.starlete.site/tags/Github-Pages/
+https://blog.starlete.site/tags/Vercel/
 https://blog.starlete.site/categories/%E8%AE%B0%E5%BD%95/
 https://blog.starlete.site/categories/%E6%8A%80%E6%9C%AF/
