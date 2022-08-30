@@ -94,71 +94,71 @@
 
   <url>
     <loc>https://blog.starlete.site/</loc>
-    <lastmod>2022-08-25</lastmod>
+    <lastmod>2022-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://blog.starlete.site/tags/Oracle/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.starlete.site/tags/SQL/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.starlete.site/tags/%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.starlete.site/tags/Hexo/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.starlete.site/tags/%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.starlete.site/tags/SEO/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.starlete.site/tags/Github-Pages/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.starlete.site/tags/Vercel/</loc>
-    <lastmod>2022-08-25</lastmod>
+    <lastmod>2022-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.starlete.site/tags/Waline/</loc>
-    <lastmod>2022-08-25</lastmod>
+    <lastmod>2022-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.starlete.site/tags/Oracle/</loc>
+    <lastmod>2022-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.starlete.site/tags/SQL/</loc>
+    <lastmod>2022-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.starlete.site/tags/%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D/</loc>
+    <lastmod>2022-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.starlete.site/tags/%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5/</loc>
+    <lastmod>2022-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.starlete.site/tags/SEO/</loc>
+    <lastmod>2022-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.starlete.site/tags/Github-Pages/</loc>
+    <lastmod>2022-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.starlete.site/tags/Vercel/</loc>
+    <lastmod>2022-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -167,14 +167,14 @@
   
   <url>
     <loc>https://blog.starlete.site/categories/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2022-08-25</lastmod>
+    <lastmod>2022-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.starlete.site/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-08-25</lastmod>
+    <lastmod>2022-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
